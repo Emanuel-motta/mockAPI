@@ -1,4 +1,14 @@
-[
+
+endpoints:
+
+- path: /random
+  method: get
+  behavior: random
+  responses: - statusCode: 200
+  body:
+  color: red - statusCode: 200
+  body:
+  [
     {
       "sequence": 20,
       "child_resource": "AplicativoQueAconteceu",
@@ -9049,4 +9059,4 @@
       ]
     }
   ]
-  
+  color: black
